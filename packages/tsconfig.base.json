@@ -1,0 +1,30 @@
+{
+  "compilerOptions": {
+    "target": "ESNext",
+    "strict": true,
+    "skipLibCheck": true,
+    "declaration": true,
+    "allowSyntheticDefaultImports": true,
+    "module": "ESNext",
+    "moduleResolution": "bundler",
+    "resolveJsonModule": true,
+    "jsx": "react-jsx",
+    "emitDeclarationOnly": true,
+    "paths": {
+      "@coolskydraw/common": ["./common/src/index.ts"],
+      "@coolskydraw/common/*": ["./common/src/*"],
+      "@coolskydraw/element": ["./element/src/index.ts"],
+      "@coolskydraw/element/*": ["./element/src/*"],
+      "@coolskydraw/coolskydraw": ["./coolskydraw/index.tsx"],
+      "@coolskydraw/coolskydraw/*": ["./coolskydraw/*"],
+      "@coolskydraw/laser-pointer": ["./laser-pointer/src/index.ts"],
+      "@coolskydraw/laser-pointer/*": ["./laser-pointer/src/*"],
+      "@coolskydraw/math": ["./math/src/index.ts"],
+      "@coolskydraw/math/*": ["./math/src/*"],
+      "@coolskydraw/utils": ["./utils/src/index.ts"],
+      "@coolskydraw/utils/*": ["./utils/src/*"],
+      "@coolskydraw/fractional-indexing": ["./fractional-indexing/src/index.ts"],
+      "@coolskydraw/fractional-indexing/*": ["./fractional-indexing/src/*"]
+    }
+  }
+}

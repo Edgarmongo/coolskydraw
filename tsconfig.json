@@ -1,0 +1,40 @@
+{
+  "compilerOptions": {
+    "rootDir": "./",
+    "target": "ESNext",
+    "lib": ["dom", "dom.iterable", "esnext"],
+    "types": ["vitest/globals", "@testing-library/jest-dom"],
+    "allowJs": true,
+    "skipLibCheck": true,
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "strict": true,
+    "forceConsistentCasingInFileNames": true,
+    "noFallthroughCasesInSwitch": true,
+    "module": "ESNext",
+    "moduleResolution": "bundler",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "noEmit": true,
+    "jsx": "react-jsx",
+    "baseUrl": ".",
+    "paths": {
+      "@coolskydraw/common": ["./packages/common/src/index.ts"],
+      "@coolskydraw/common/*": ["./packages/common/src/*"],
+      "@coolskydraw/coolskydraw": ["./packages/coolskydraw/index.tsx"],
+      "@coolskydraw/coolskydraw/*": ["./packages/coolskydraw/*"],
+      "@coolskydraw/element": ["./packages/element/src/index.ts"],
+      "@coolskydraw/element/*": ["./packages/element/src/*"],
+      "@coolskydraw/fractional-indexing": ["./packages/fractional-indexing/src/index.ts"],
+      "@coolskydraw/fractional-indexing/*": ["./packages/fractional-indexing/src/*"],
+      "@coolskydraw/laser-pointer": ["./packages/laser-pointer/src/index.ts"],
+      "@coolskydraw/laser-pointer/*": ["./packages/laser-pointer/src/*"],
+      "@coolskydraw/math": ["./packages/math/src/index.ts"],
+      "@coolskydraw/math/*": ["./packages/math/src/*"],
+      "@coolskydraw/utils": ["./packages/utils/src/index.ts"],
+      "@coolskydraw/utils/*": ["./packages/utils/src/*"]
+    }
+  },
+  "include": ["packages", "coolskydraw-app"],
+  "exclude": ["examples", "dist", "types", "tests"]
+}

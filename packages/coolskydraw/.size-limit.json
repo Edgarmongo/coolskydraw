@@ -1,0 +1,16 @@
+[
+  {
+    "path": "dist/coolskydraw.production.min.js",
+    "limit": "340 kB"
+  },
+  {
+    "path": "dist/coolskydraw-assets/locales",
+    "name": "dist/coolskydraw-assets/locales",
+    "limit": "290 kB"
+  },
+  {
+    "path": "dist/coolskydraw-assets/vendor-*.js",
+    "name": "dist/coolskydraw-assets/vendor*.js",
+    "limit": "900 kB"
+  }
+]

@@ -1,0 +1,7 @@
+@use "../css/theme" as *;
+
+.coolskydraw {
+  .coolskydraw-button {
+    @include outlineButtonStyles;
+  }
+}

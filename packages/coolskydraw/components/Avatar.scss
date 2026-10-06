@@ -1,0 +1,7 @@
+@use "../css/variables.module" as *;
+
+.coolskydraw {
+  .Avatar {
+    @include avatarStyles;
+  }
+}
